@@ -4,8 +4,8 @@ if [ -z "$1" ];then
   echo "please add name of comic to position 1 when calling this script"
 fi
 
-if [ -d "$DIRECTORY" ]; then
-  printf "\nDirectory exists\n$1\n"
+if [ -d "Comics/$1" ]; then
+  printf "Directory exists exiting : Comics/$1\n"
   exit 1
 fi
 
