@@ -3,13 +3,13 @@ Scripts to download a whole webcomic looping from the first page to the last the
 
 
 Create a folder for the new comic
-
+```bash
 $ ./newcomic.sh Comic_Name
-
+```
 
 cd to the new directory and edit download.sh fill in in the below vars/aliases using the README contents in download.sh
 
-
+```bash
 PAGE=""
 
 LASTIMG=""
@@ -19,8 +19,9 @@ alias IMGCODE=''
 alias IMGTYPECODE=''
 
 alias NEXTPAGECODE=''
-
+```
 
 run the downloader script
-
-./download.sh
+```bash
+    ./download.sh
+```
